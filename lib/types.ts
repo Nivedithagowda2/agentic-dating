@@ -19,6 +19,7 @@ export type Person = {
     instagramError?: string;
     manualLinkedin?: string;
     manualInstagram?: string;
+    identityNote?: string;
   };
   profile?: Profile;
   createdAt: number;
