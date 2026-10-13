@@ -5,7 +5,7 @@ Every person gets an agent. The agents date each other. You get a ranking.
 **200-character summary:** Paste a LinkedIn + public Instagram link per person; a Claude agent profiles them, agents go on simulated dates with each other, and a judge ranks who fits each person best.
 
 ## How it works
-
+ 
 ```
 LinkedIn + Instagram (public) → Apify scrapers → condensed JSON
   → Profiler agent (Claude)  → profile: needs, hobbies, interests, values, personality, evidence
