@@ -7,7 +7,7 @@ const FAST = ["llama-3.1-8b-instant", "openai/gpt-oss-20b", "llama-3.3-70b-versa
 
 export const MODELS = {
   profile: () => process.env.PROFILE_MODEL || "auto:smart",
-  judge: () => process.env.JUDGE_MODEL || "auto:smart",
+  judge: () => process.env.JUDGE_MODEL || "auto:smart", 
   date: () => process.env.DATE_MODEL || "auto:fast",
 };
 
